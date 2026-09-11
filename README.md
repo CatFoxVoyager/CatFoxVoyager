@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f1a,45:1b3b6f,100:00d9ff&height=200&section=header&text=J%C3%A9r%C3%A9mie%20Dufault&fontColor=ffffff&fontSize=46&fontAlignY=34&desc=Cybersecurity%20%C2%B7%20Applied%20AI%20%C2%B7%20Open%20Source&descAlignY=54&descSize=16" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f1a,45:1b3b6f,100:00d9ff&height=200&section=header&text=J%C3%A9r%C3%A9mie%20D.&fontColor=ffffff&fontSize=46&fontAlignY=34&desc=Cybersecurity%20%C2%B7%20Applied%20AI%20%C2%B7%20Open%20Source&descAlignY=54&descSize=16" width="100%" />
 
-<a href="https://www.linkedin.com/in/jeremiedufault/"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00D9FF&center=true&vCenter=true&width=720&lines=Cybersecurity+consultant+%7C+vulnerability+management;Fine-tuning+LLMs+for+security+%26+automation;Mapping+CVEs+to+MITRE+ATT%26CK+with+ModernBERT;Digital+forensics+%2B+OSINT+enthusiast;15%2B+years+of+IT+infrastructure+under+the+hood" alt="typing banner" /></a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00D9FF&center=true&vCenter=true&width=720&lines=Cybersecurity+consultant+%7C+vulnerability+management;Fine-tuning+LLMs+for+security+%26+automation;Mapping+CVEs+to+MITRE+ATT%26CK+with+ModernBERT;Digital+forensics+%2B+OSINT+enthusiast;15%2B+years+of+IT+infrastructure+under+the+hood" alt="typing banner" />
 
 <p>
 <a href="https://www.linkedin.com/in/jeremiedufault/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -21,10 +21,10 @@
 ## `whoami`
 
 ```yaml
-name:       Jérémie Dufault
+handle:     CatFoxVoyager  #  Jérémie D.
 role:       Cybersecurity consultant — vulnerability management
-location:   Québec City, Canada 🇨🇦
-education:  B.Sc. Cybersecurity — Polytechnique Montréal
+based:      Canada 🇨🇦
+field:      B.Sc. Cybersecurity
 background: 15+ years IT infrastructure → SOC analyst → offensive & defensive security
 focus:      [ vulnerability management, applied AI / LLMs, DFIR, OSINT ]
 belief:     "The future of cyber defense runs on artificial intelligence."
@@ -123,7 +123,7 @@ attaquemitre2.csv   ATT&CK reference (id, name, description, platforms)
 
 - 🧠 [Automatiser le mapping CVE → MITRE ATT&CK avec BERT : dataset, biais et pièges](https://www.linkedin.com/pulse/automatiser-le-mapping-cve-mitre-attck-avec-bert-dataset-dufault-azace/) — three months, one RTX 3090, and every trap I fell into: temporal bias, class imbalance, distribution shift.
 - 📝 [Fine-tuner un LLM de 0.8B pour générer des diagrammes Mermaid dans le navigateur](https://jeremiedufault.substack.com) — how the MermaidStudio model was trained, quantized and shipped to WebAssembly.
-- 🎓 Mentor on [Academos](https://academos.qc.ca) since 2009 — answering students curious about IT and cybersecurity careers.
+- 🎓 Mentor for students curious about IT and cybersecurity careers, since 2009.
 - 🔐 20+ certifications, from Cisco CCNA to EC-Council Digital Forensics Essentials.
 
 ---
