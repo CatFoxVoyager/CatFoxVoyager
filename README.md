@@ -2,10 +2,11 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f1a,45:1b3b6f,100:00d9ff&height=200&section=header&text=J%C3%A9r%C3%A9mie%20Dufault&fontColor=ffffff&fontSize=46&fontAlignY=34&desc=Cybersecurity%20%C2%B7%20Applied%20AI%20%C2%B7%20Open%20Source&descAlignY=54&descSize=16" width="100%" />
 
-<a href="https://www.linkedin.com/in/jeremiedufault/"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00D9FF&center=true&vCenter=true&width=720&lines=Cybersecurity+consultant+%7C+vulnerability+management;Fine-tuning+LLMs+for+security+%26+automation;Digital+forensics+%2B+OSINT+enthusiast;15%2B+years+of+IT+infrastructure+under+the+hood;Open-source+builder+after+hours" alt="typing banner" /></a>
+<a href="https://www.linkedin.com/in/jeremiedufault/"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00D9FF&center=true&vCenter=true&width=720&lines=Cybersecurity+consultant+%7C+vulnerability+management;Fine-tuning+LLMs+for+security+%26+automation;Mapping+CVEs+to+MITRE+ATT%26CK+with+ModernBERT;Digital+forensics+%2B+OSINT+enthusiast;15%2B+years+of+IT+infrastructure+under+the+hood" alt="typing banner" /></a>
 
 <p>
 <a href="https://www.linkedin.com/in/jeremiedufault/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://huggingface.co/SpongeBOB9684"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
 <a href="https://jeremiedufault.substack.com"><img src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white" alt="Substack" /></a>
 <a href="https://mermaidstudio.net"><img src="https://img.shields.io/badge/MermaidStudio-1F9E8E?style=for-the-badge&logo=mermaid&logoColor=white" alt="MermaidStudio" /></a>
 <a href="https://carte-radon.ca"><img src="https://img.shields.io/badge/Carte%20Radon-2E7D32?style=for-the-badge&logo=leaflet&logoColor=white" alt="Carte Radon" /></a>
@@ -40,7 +41,7 @@ building open-source tools that put AI to work on real security and civic proble
 | :-- | :-- | :-- |
 | **[MermaidStudio](https://mermaidstudio.net)** · [`repo`](https://github.com/CatFoxVoyager/MermaidStudio) | Open-source Mermaid diagram editor with an AI assistant. A fine-tuned 0.8B LLM runs **fully in your browser** — no server, no data leaving the tab. Version history, templates, diffs, export. | TypeScript · ONNX Runtime Web · Transformers.js · WASM |
 | **[Carte citoyenne du radon](https://carte-radon.ca)** | A community radon-risk map for Québec. Type an address, get the risk. Citizens can add their own anonymous test results to enrich the map for their neighbourhood, on top of Health Canada open data. | TypeScript · MapLibre · Protomaps |
-| **CVE → MITRE ATT&CK classifier** | Fine-tuned BERT model that automatically maps CVEs to ATT&CK tactics, so vulnerability prioritization stops being guesswork. | Python · HuggingFace · scikit-learn |
+| **[CVE → MITRE ATT&CK](https://huggingface.co/datasets/SpongeBOB9684/CVE-TO-MITRE)** · [`write-up`](https://www.linkedin.com/pulse/automatiser-le-mapping-cve-mitre-attck-avec-bert-dataset-dufault-azace/) | Multi-label ModernBERT-Large classifier that maps raw CVE descriptions to **all 691 ATT&CK techniques & sub-techniques**. Built the dataset from scratch (real + synthetic, LLM-generated then audited) to beat class imbalance. Dataset published on 🤗. | Python · PyTorch · Transformers · Optuna |
 | **LLM-driven pentest tooling** | Workflow orchestration, model evaluation and automated report generation for offensive security engagements. | Python · local + hosted LLMs |
 | **[bombvault](https://github.com/CatFoxVoyager/bombvault)** | Unraid backup & full disaster recovery — Docker containers, KVM VMs, flash config — encrypted, off-site, restic-powered. | Go |
 
@@ -59,9 +60,10 @@ building open-source tools that put AI to work on real security and civic proble
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
 **AI / ML**  
-![HuggingFace](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![HuggingFace](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+![Optuna](https://img.shields.io/badge/Optuna-2A6AB0?style=flat-square&logo=optuna&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 
@@ -86,6 +88,18 @@ building open-source tools that put AI to work on real security and civic proble
 
 ---
 
+## 🤗 Open data
+
+**[CVE-TO-MITRE](https://huggingface.co/datasets/SpongeBOB9684/CVE-TO-MITRE)** — 20 000 vulnerability descriptions (10k real CVEs + 10k synthetic) labelled with MITRE ATT&CK technique IDs, multi-label, MIT licensed. Released so others can train their own triage models instead of starting from the ~2 000 public examples I had to work with.
+
+```text
+real_10k.jsonl      10 000 real CVE descriptions  →  ["T1078", "T1203", ...]
+synth_10k.jsonl     10 000 synthetic descriptions →  rare-technique coverage
+attaquemitre2.csv   ATT&CK reference (id, name, description, platforms)
+```
+
+---
+
 ## 🧪 Currently
 
 ```text
@@ -107,6 +121,7 @@ building open-source tools that put AI to work on real security and civic proble
 
 ## ✍️ Writing & sharing
 
+- 🧠 [Automatiser le mapping CVE → MITRE ATT&CK avec BERT : dataset, biais et pièges](https://www.linkedin.com/pulse/automatiser-le-mapping-cve-mitre-attck-avec-bert-dataset-dufault-azace/) — three months, one RTX 3090, and every trap I fell into: temporal bias, class imbalance, distribution shift.
 - 📝 [Fine-tuner un LLM de 0.8B pour générer des diagrammes Mermaid dans le navigateur](https://jeremiedufault.substack.com) — how the MermaidStudio model was trained, quantized and shipped to WebAssembly.
 - 🎓 Mentor on [Academos](https://academos.qc.ca) since 2009 — answering students curious about IT and cybersecurity careers.
 - 🔐 20+ certifications, from Cisco CCNA to EC-Council Digital Forensics Essentials.
