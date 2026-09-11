@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f1a,45:1b3b6f,100:00d9ff&height=200&section=header&text=J%C3%A9r%C3%A9mie%20Dufault&fontColor=ffffff&fontSize=46&fontAlignY=34&desc=Cybersecurity%20%C2%B7%20Applied%20AI%20%C2%B7%20Open%20Source&descAlignY=54&descSize=16" width="100%" />
 
-<a href="https://www.linkedin.com/in/jeremiedufault/"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00D9FF&center=true&vCenter=true&width=720&lines=Cybersecurity+consultant+%40+KPMG+Canada;Vulnerability+management+%2C+at+scale;Fine-tuning+LLMs+for+security+%26+automation;Digital+forensics+%2B+OSINT+enthusiast;15%2B+years+of+IT+infrastructure+under+the+hood" alt="typing banner" /></a>
+<a href="https://www.linkedin.com/in/jeremiedufault/"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00D9FF&center=true&vCenter=true&width=720&lines=Cybersecurity+consultant+%7C+vulnerability+management;Fine-tuning+LLMs+for+security+%26+automation;Digital+forensics+%2B+OSINT+enthusiast;15%2B+years+of+IT+infrastructure+under+the+hood;Open-source+builder+after+hours" alt="typing banner" /></a>
 
 <p>
 <a href="https://www.linkedin.com/in/jeremiedufault/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -21,7 +21,7 @@
 
 ```yaml
 name:       Jérémie Dufault
-role:       Cybersecurity Consultant — Vulnerability Management @ KPMG Canada
+role:       Cybersecurity consultant — vulnerability management
 location:   Québec City, Canada 🇨🇦
 education:  B.Sc. Cybersecurity — Polytechnique Montréal
 background: 15+ years IT infrastructure → SOC analyst → offensive & defensive security
@@ -70,7 +70,7 @@ building open-source tools that put AI to work on real security and civic proble
 ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
 ![Kali](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![Splunk](https://img.shields.io/badge/SIEM%20%2F%20SOAR-000000?style=flat-square&logo=splunk&logoColor=white)
+![SIEM/SOAR](https://img.shields.io/badge/SIEM%20%2F%20SOAR-000000?style=flat-square&logo=splunk&logoColor=white)
 ![Defender](https://img.shields.io/badge/Microsoft%20Defender-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 
 **Infra & Ops**  
@@ -86,23 +86,29 @@ building open-source tools that put AI to work on real security and civic proble
 
 ---
 
-## 📊 Stats
+## 🧪 Currently
+
+```text
+[▓▓▓▓▓▓▓▓▓░] shipping features on carte-radon.ca
+[▓▓▓▓▓▓▓░░░] smaller, faster in-browser models for MermaidStudio
+[▓▓▓▓▓░░░░░] automating vulnerability triage with LLM agents
+[▓▓▓░░░░░░░] digital forensics & OSINT rabbit holes
+```
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=CatFoxVoyager&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=tokyonight&title_color=00d9ff&icon_color=00d9ff" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CatFoxVoyager&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=00d9ff" alt="Top languages" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=CatFoxVoyager&theme=nord&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies" />
+<img src="https://img.shields.io/github/followers/CatFoxVoyager?style=for-the-badge&logo=github&color=00d9ff&labelColor=0b0f1a" alt="followers" />
+<img src="https://img.shields.io/github/stars/CatFoxVoyager?style=for-the-badge&logo=github&color=00d9ff&labelColor=0b0f1a" alt="stars" />
+<img src="https://img.shields.io/badge/coffee%20driven-100%25-643B1F?style=for-the-badge&logo=buymeacoffee&logoColor=white&labelColor=0b0f1a" alt="coffee" />
 
 </div>
 
 ---
 
-## ✍️ Writing & talking
+## ✍️ Writing & sharing
 
 - 📝 [Fine-tuner un LLM de 0.8B pour générer des diagrammes Mermaid dans le navigateur](https://jeremiedufault.substack.com) — how the MermaidStudio model was trained, quantized and shipped to WebAssembly.
-- 🎓 Mentor on [Academos](https://academos.qc.ca) since 2009 — answering students who are curious about IT and cybersecurity careers.
+- 🎓 Mentor on [Academos](https://academos.qc.ca) since 2009 — answering students curious about IT and cybersecurity careers.
 - 🔐 20+ certifications, from Cisco CCNA to EC-Council Digital Forensics Essentials.
 
 ---
@@ -112,7 +118,7 @@ building open-source tools that put AI to work on real security and civic proble
 <div align="center">
 
 Always happy to talk vulnerability management, local LLMs, forensics, OSINT — or homelabs.  
-*Toujours partant pour jaser cybersécurité, IA appliquée et projets open source. 🇶🇨*
+*Toujours partant pour jaser cybersécurité, IA appliquée et projets open source. 🇨🇦*
 
 <a href="https://www.linkedin.com/in/jeremiedufault/"><img src="https://img.shields.io/badge/Let%27s%20connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 
