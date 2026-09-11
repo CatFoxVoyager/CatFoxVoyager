@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f1a,45:1b3b6f,100:00d9ff&height=200&section=header&text=J%C3%A9r%C3%A9mie%20D.&fontColor=ffffff&fontSize=46&fontAlignY=34&desc=Cybersecurity%20%C2%B7%20Applied%20AI%20%C2%B7%20Open%20Source&descAlignY=54&descSize=16" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f1a,45:1b3b6f,100:00d9ff&height=200&section=header&text=Jay%20D.&fontColor=ffffff&fontSize=46&fontAlignY=34&desc=Cybersecurity%20%C2%B7%20Applied%20AI%20%C2%B7%20Open%20Source&descAlignY=54&descSize=16" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00D9FF&center=true&vCenter=true&width=720&lines=Cybersecurity+consultant+%7C+vulnerability+management;Fine-tuning+LLMs+for+security+%26+automation;Mapping+CVEs+to+MITRE+ATT%26CK+with+ModernBERT;Digital+forensics+%2B+OSINT+enthusiast;15%2B+years+of+IT+infrastructure+under+the+hood" alt="typing banner" />
 
@@ -21,7 +21,7 @@
 ## `whoami`
 
 ```yaml
-handle:     CatFoxVoyager  #  Jérémie D.
+handle:     CatFoxVoyager  #  Jay D.
 role:       Cybersecurity consultant — vulnerability management
 based:      Canada 🇨🇦
 field:      B.Sc. Cybersecurity
