@@ -9,6 +9,7 @@
 <a href="https://huggingface.co/SpongeBOB9684"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
 <a href="https://jeremiedufault.substack.com"><img src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white" alt="Substack" /></a>
 <a href="https://mermaidstudio.net"><img src="https://img.shields.io/badge/MermaidStudio-1F9E8E?style=for-the-badge&logo=mermaid&logoColor=white" alt="MermaidStudio" /></a>
+<a href="https://play.google.com/store/apps/details?id=com.mermaidstudio.net"><img src="https://img.shields.io/badge/Now_on_Google_Play-3DDC84?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play" /></a>
 <a href="https://carte-radon.ca"><img src="https://img.shields.io/badge/Carte%20Radon-2E7D32?style=for-the-badge&logo=leaflet&logoColor=white" alt="Carte Radon" /></a>
 </p>
 
@@ -23,7 +24,7 @@
 ```yaml
 handle:     CatFoxVoyager  #  Jay D.
 role:       Cybersecurity consultant — vulnerability management
-based:      Canada 🇨🇦
+based:      Québec, Canada ⚜️ 🇨🇦
 field:      B.Sc. Cybersecurity
 background: 15+ years IT infrastructure → SOC analyst → offensive & defensive security
 focus:      [ vulnerability management, applied AI / LLMs, DFIR, OSINT ]
@@ -39,7 +40,7 @@ building open-source tools that put AI to work on real security and civic proble
 
 | Project | What it is | Stack |
 | :-- | :-- | :-- |
-| **[MermaidStudio](https://mermaidstudio.net)** · [`repo`](https://github.com/CatFoxVoyager/MermaidStudio) | Open-source Mermaid diagram editor with an AI assistant. A fine-tuned 0.8B LLM runs **fully in your browser** — no server, no data leaving the tab. Version history, templates, diffs, export. | TypeScript · ONNX Runtime Web · Transformers.js · WASM |
+| **[MermaidStudio](https://mermaidstudio.net)** · [`repo`](https://github.com/CatFoxVoyager/MermaidStudio) | Open-source Mermaid diagram editor with an AI assistant. A fine-tuned 0.8B LLM runs **fully in your browser** — no server, no data leaving the tab. Version history, templates, diffs, export. **Now on Google Play** (Android, v2.1.0 — 26 shapes, offline-first). | TypeScript · ONNX Runtime Web · Transformers.js · WASM |
 | **[Carte citoyenne du radon](https://carte-radon.ca)** | A community radon-risk map for Québec. Type an address, get the risk. Citizens can add their own anonymous test results to enrich the map for their neighbourhood, on top of Health Canada open data. | TypeScript · MapLibre · Protomaps |
 | **[CVE → MITRE ATT&CK](https://huggingface.co/datasets/SpongeBOB9684/CVE-TO-MITRE)** · [`write-up`](https://www.linkedin.com/pulse/automatiser-le-mapping-cve-mitre-attck-avec-bert-dataset-dufault-azace/) | Multi-label ModernBERT-Large classifier that maps raw CVE descriptions to **all 691 ATT&CK techniques & sub-techniques**. Built the dataset from scratch (real + synthetic, LLM-generated then audited) to beat class imbalance. Dataset published on 🤗. | Python · PyTorch · Transformers · Optuna |
 | **LLM-driven pentest tooling** | Workflow orchestration, model evaluation and automated report generation for offensive security engagements. | Python · local + hosted LLMs |
@@ -103,6 +104,7 @@ attaquemitre2.csv   ATT&CK reference (id, name, description, platforms)
 ## 🧪 Currently
 
 ```text
+[▓▓▓▓▓▓▓▓░░] shipping MermaidStudio 2.1.0 on Google Play
 [▓▓▓▓▓▓▓▓▓░] shipping features on carte-radon.ca
 [▓▓▓▓▓▓▓░░░] smaller, faster in-browser models for MermaidStudio
 [▓▓▓▓▓░░░░░] automating vulnerability triage with LLM agents
