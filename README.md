@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f1a,45:1b3b6f,100:00d9ff&height=200&section=header&text=Jay%20D.&fontColor=ffffff&fontSize=46&fontAlignY=34&desc=Cybersecurity%20%C2%B7%20Applied%20AI%20%C2%B7%20Open%20Source&descAlignY=54&descSize=16" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00D9FF&center=true&vCenter=true&width=720&lines=Cybersecurity+consultant+%7C+vulnerability+management;Fine-tuning+LLMs+for+security+%26+automation;Mapping+CVEs+to+MITRE+ATT%26CK+with+ModernBERT;Digital+forensics+%2B+OSINT+enthusiast;15%2B+years+of+IT+infrastructure+under+the+hood" alt="typing banner" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00D9FF&center=true&vCenter=true&width=720&lines=Cybersecurity;Fine-tuning+LLMs+for+security+%26+automation;Mapping+CVEs+to+MITRE+ATT%26CK+with+ModernBERT;Digital+forensics+%2B+OSINT+enthusiast;15%2B+years+of+IT+infrastructure+under+the+hood" alt="typing banner" />
 
 <p>
 <a href="https://www.linkedin.com/in/jeremiedufault/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -23,16 +23,15 @@
 
 ```yaml
 handle:     CatFoxVoyager  #  Jay D.
-role:       Cybersecurity consultant — vulnerability management
+role:       Cybersecurity
 based:      Québec, Canada ⚜️ 🇨🇦
 field:      B.Sc. Cybersecurity
 background: 15+ years IT infrastructure → SOC analyst → offensive & defensive security
-focus:      [ vulnerability management, applied AI / LLMs, DFIR, OSINT ]
+focus:      [ applied AI / LLMs, DFIR, OSINT, security automation ]
 belief:     "The future of cyber defense runs on artificial intelligence."
 ```
 
-I spend my days helping organizations turn messy vulnerability data into decisions, and my nights
-building open-source tools that put AI to work on real security and civic problems.
+I work in cybersecurity, and I spend my free time building open-source tools that put AI to work on real security and civic problems.
 
 ---
 
@@ -134,7 +133,7 @@ attaquemitre2.csv   ATT&CK reference (id, name, description, platforms)
 
 <div align="center">
 
-Always happy to talk vulnerability management, local LLMs, forensics, OSINT — or homelabs.  
+Always happy to talk cybersecurity, local LLMs, forensics, OSINT — or homelabs.  
 *Toujours partant pour jaser cybersécurité, IA appliquée et projets open source. 🇨🇦*
 
 <a href="https://www.linkedin.com/in/jeremiedufault/"><img src="https://img.shields.io/badge/Let%27s%20connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
